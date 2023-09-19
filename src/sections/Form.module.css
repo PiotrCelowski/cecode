@@ -1,0 +1,108 @@
+.background {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.section {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.title h1 {
+    margin: 0px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p {
+    margin: 0px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form_field h2 {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+.form_field input {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 2px;
+    border: 0.5px solid #8F8F8F;
+    background: #FFF;
+    height: 100%;
+}
+
+.form_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(50% - var(--gap));
+    gap: 5px;
+    flex-shrink: 5;
+}
+
+.form_container {
+    --gap: 50px;
+    width: 100%;
+    display: flex;
+    gap: var(--gap);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form_message {
+    width: 100%;
+    height: 500px;
+}
+
+.form_container button {
+    display: flex;
+    width: 252px;
+    padding: 15px 80px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #33BDFD;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0.5px solid #8F8F8F;
+    transition: transform 300ms ease-out;
+}
+
+.form_container button:hover {
+    cursor: pointer;
+    transform: translate(0, -5px);
+}

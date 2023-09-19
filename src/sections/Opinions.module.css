@@ -1,0 +1,40 @@
+.background {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.section {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 0.5px solid #8F8F8F;
+    gap: 50px;
+}
+
+.opinions_container {
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.title h1 {
+    margin: 0px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.carouselStyle {
+    width: 100%;
+}
